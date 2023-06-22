@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/biotop.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<section data-background-image="img/network.jpg">
+						<h2 class="aligned-left">Künstliche Intelligenz</h2>
+						<h3 class="aligned-left em08"> Eine Einführung</h3>
+						<h2 class="aligned-left em03  background">Lukas Hutter | 24.06.2023 | ARS Seminar "KI im HR-Management"</h2>
+					</section>
+
+					<section data-background-image="img/luki-cut.jpg">
+						<p class="aligned-right bold em08 green1">
+							<a href="mailto:lukas.hutter@biotop.co">Lukas Hutter</a>
+						</p>
+						<p class="aligned-right em05 gray1">
+							Wissenschaftler <br/>
+							Lehrer <br/>
+							Data Analyst, Visualiser & Consultant
+						</p>
+						<p class="aligned-right em05 gray">
+							Gründer von <br/>
+							<a href="http://biotop.co/de">Biotop Wissenschaftskollektiv</a>
+						</p>
+						<p class="aligned-right em05 gray">
+							2012-2016 <br/>
+							Systembiologie | University of Oxford
+						</p>
+						<p class="aligned-right em05 gray">
+							2005-2012 <br/>
+							MSc in Analytischer Chemie | TU Graz</p>
+						</section>
+
+				</section>
+
+				<section>
+					<section>
+						<h3>Geschichte</h3>
+					</section> 
+
+					<section data-background-image="img/turing.jpg">
+						<h2 class="bold green2 aligned-right">1950</h2>
+						<h3 class="green3 aligned-right">Turing Test</h3>
+						<div class="fragment">
+							<a href="https://www.csee.umbc.edu/courses/471/papers/turing.pdf">
+								<img data-src="img/turing-essay.jpg">
+							</a>
+						</div>
+					</section>
+
+					<section data-background-image="img/minsky.jpg">
+						<h2 class="bold green2 aligned-left">1951</h2>
+						<h3 class="green3 aligned-left">SNARC</h3>
+						<a href="https://www.the-scientist.com/foundations/machine--learning--1951-65792">
+							<p class="background">
+								<b>Marvin Minsky</b> baut das erste, damals noch analoge, neuronale Netzwerk, in dem virtuelle Ratten durch ein Labyrinth navigieren
+							</p>
+						</a>
+					</section>
+
+					<section data-background-image="img/dartmouth.jpg">
+						<h2 class="bold green3 aligned-left">1956</h2>
+						<h3 class="green3 aligned-left">Dartmouth Conference</h3>
+					</section>
+
+					<section>
+						<img class="r-stretch" src="img/ai-history.png">
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h3>Terminologie</h3>
+					</section>
+
+					<section>
+						<h2 class="bold green2 aligned-left">Modell</h2>
+						<h3 class="green3 aligned-left">die trainierte Version eines Lernalgorithmus </h3>
+					</section>
+
+					<section data-background-image="img/matrjushka.jpg">
+						<img data-src="img/ai-ml-dl.png">
+					</section>
+
+					<section data-background-image="img/network.jpg">
+						<p class="aligned-left background">
+							<a><b>Künstliche Intelligenz</b></a> (<b>K.I.</b> oft auch <b>A.I.</b>) ist jenes Teilgebiet der Computerwissenschaften, welches sich kognitiven Aufgabenstellungen - wie beispielsweise dem Lernen, dem Lösen genereller und spezifischer Probleme, und dem Erkennen von Mustern - widmet, deren Lösung normalerweise menschliche Intelligenz velangt.
+						</p>
+					</section>
+
+					<section>
+						<h2>Typen künstlicher Intelligenz</h2>
+						<h3 class="green3">Narrow/ Weak AI</h3>
+						<p>spezifische Probleme, zB Voice Assistants, Bilderkennung, Empfehlungssysteme</p>
+						<h3 class="green3">General AI / Strong AI</h3>
+						<p>Verstehen, Lernen, Wissen kontextunabhängig Einsetzen</p>
+					</section>
+
+					<section>
+						<h2>Machine Learning</h2>
+						<img data-src="img/xkcd.png">
+					</section>
+
+					<section data-markdown>
+						<textarea data-template>
+							### Lernansätze im ML
+							- **Supervised** - Das Erkennen von Mustern wird auf Basis vorklassifizierter Daten erlernt -> Klassifikation neuer Daten
+							- **Unsupervised** - Muster werden ohne spezifische Anleitung selbstständig in den Daten erkannt -> erkennen verborgener Beziehungen in den Daten
+							- **Reinforcement Learning** - Ein vortrainiertes ML-Modell erhält während des Einsatzes Feedback in Form von "Belohnungen" und "Strafen" und lernt über die Zeit die "Belohnungen" zu maximieren (vgl. Pavlov'sche Konditionierung)
+						</textarea>
+					</section>
+
+					<section data-markdown>
+						<textarea data-template>
+						### Support Vector Machines (SVMs)
+						![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmiro.medium.com%2Fmax%2F2684%2F1*3t_Gn5yuirT6fSC-sbxKAA.png&f=1&nofb=1&ipt=0a122488c9e91b97c98bb5e6c11c3fd6de30309b1ac1895076d7966915c64d73&ipo=images)
+						</textarea>
+					</section>
+
+					<section>
+						<h3>Entscheidungsbäume & Random Forests</h3>
+						<img data-src="img/solar_panels.png">
+					</section>
+
+					<section data-background="#fff">
+						<img data-src="img/iris.svg">
+					</section>
+
+					<section data-background="#000">
+						<h2 class="aligned-left aligned-top green3"> Deep Learning</h2>
+						<h2 class="aligned-left em03 grey">Animation: <a href="https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi">3Blue1Brown</a></h2>
+						<img data-src="img/neural-net.gif" alt="">
+					</section>
+
+					<section data-background="#000">
+						<h4 class="aligned-left aligned-top"> Backpropagation</h4>
+						<h2 class="aligned-left em03 grey">Animation: <a href="https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi">3Blue1Brown</a></h2>
+						<img data-src="img/backpropagation.gif" alt="">
+					</section>
+
+					<section>
+						<h4 class="aligned-left aligned-top"> Convolutional Neural Networks</h4>
+						<h2 class="aligned-left em03 grey">Animation: <a href="https://upload.wikimedia.org/wikipedia/commons/1/19/2D_Convolution_Animation.gif">Wikipedia</a></h2>
+						<img data-src="img/convolution.gif" alt="">
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h3>Generative AI</h3>
+					</section>
+
+					
+
+				</section>
+
+				<section>
+
+
+					<section data-background="#fff">
+						<img data-src="img/dogs.jpeg">
+					</section>
+
+					<section>
+						<img data-src="img/solar_panels.png">
+					</section>
+
+					<section data-background="#fff">
+						<img data-src="img/dogs.jpeg">
+					</section>
+
+					<section>
+						<img data-src="img/xkcd.png">
+					</section>
+
+					<!-- <section data-background="#fff">
+						<img data-src="img/clustering.png">
+					</section> -->
+
+					<section data-background="#fff">
+						<img data-src="img/iris.svg">
+					</section>
+
+					<!-- <section data-background-image="img/bayes.png">
+					</section> -->
+
+					<section data-background="#000">
+						<h2 class="aligned-left aligned-top green3"> Neuronale Netze</h2>
+						<h2 class="aligned-left em03 grey">Animation: <a href="https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi">3Blue1Brown</a></h2>
+						<img data-src="img/neural-net.gif" alt="">
+					</section>
+
+				</section>
+
+				<section>
+					<section data-background-image="img/seesaw.jpg">
+						<div class="background">
+							<h2>Bias und AI</h2>
+							<p>
+								<b>Bias</b> - <em>Hang, Befangenheit, Verzerrung</em>
+							</p>
+							<a href="https://www.frontiersin.org/articles/10.3389/fdata.2019.00013/full">
+								<img src="img/bias.png" alt="">
+							</a>
+						</div>
+					</section>
+				</section>
+
+				<section>
+					<section data-background-image="img/patent.jpg">
+						<h3 class="background">Urheberschaft und AI</h3>
+						<a href="https://thenewstack.io/ai-makes-new-scientific-discoveries-by-analyzing-old-research-papers/">
+							<img src="img/chemistry.png" alt="">
+						</a>
+					</section>
+				</section>
+
+				<section data-markdown>
+					### Weiterführende Literatur & Links
+					- [**Marcus Du Sautoy - The Creativity Code**](https://www.simonyi.ox.ac.uk/books/the-creativity-code/) - Buch über AI und Kreativität
+					- [**Cathy O'Neil - Weapons of Math Destruction**](https://weaponsofmathdestructionbook.com/) - Buch über die gesellschaftlichen Auswirkungen von Algorithmisierung
+					- [**Max Tegmark - Life 3.0: Being Human in the Age of Artificial Intelligence**](https://lexfridman.com/max-tegmark/)
+					- [**3blue1brown - Neural Networks**](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) - Hervorragend aufbereitete Reihe an Youtube Videos zum Thema Neuronale Netzwerke
+					- [**xkcd**](https://xkcd.com/) - Online Cartoons eines ehem. Nasa-Ingenieurs, die sich auf humorvoll-intelligente Art und Weise mit Wissenschaft, Technologie und Kommunikation befassen.
+				</section>
+
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
